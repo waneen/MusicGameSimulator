@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>MGS.Scene</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Audio\Audio.csproj" />
+    <ProjectReference Include="..\Input\Input.csproj" />
+    <ProjectReference Include="..\Skin\Skin.csproj" />
+  </ItemGroup>
+
+</Project>
